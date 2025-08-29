@@ -1,20 +1,20 @@
 
 // Case 1: Execute After a Delay
 
-// It executes after 1 sec Delay
-// setTimeout(()=>{
-//   console.log("Hello Programmer")
-// }, 1000);
+//It executes after 1 sec Delay
+setTimeout(()=>{
+  console.log("Hello Programmer")
+}, 1000);
 
 
 // It executes after each 1 seconds delay until clearInterval is called
-// let firstInterval=setInterval(()=>{
-//   console.log("Interval")
-// }, 1000)
+let firstInterval=setInterval(()=>{
+  console.log("Interval")
+}, 1000)
 
-// setTimeout(()=>{
-//   clearInterval(firstInterval)
-// },5000)
+setTimeout(()=>{
+  clearInterval(firstInterval)
+},5000)
 
 
 

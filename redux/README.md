@@ -29,7 +29,11 @@
    * A Reducer is a function that accepts the current state and an action as argument, returning the next state of application.
    * **Carries out the state transition based on the action**
 
-![OpenAI Logo](https://openai.com/favicon.ico)
 
-   
+## Example
+
+### Step1: Install the Redux Toolkit and React Redux
+> npm install @reduxjs/toolkit react-redux
+
+### Step 2: Create a Redux Store (src/redux/store.js)
 
